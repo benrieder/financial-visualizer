@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04466893-8b69-4d73-afe8-50c9658ce4d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/financial-visualization-main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All NASDAQ Stocks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlippyGroove.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlyGroove.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figs/closingPrice_AACG_2019_2024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figs/dailyReturnDist_AACG_2019_2024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figs/movingAverages_AACG_2019_2024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figs/priceCorrelation_AACG_2019_2024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figs/tradeVolume_AACG_2019_2024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/financial_data_visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_over.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/happy_humblebee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2jEddF5nhQWCErFej2hbPqXCjsw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.financial_data_visualization.executor": "Run",
+    "Python.happy_humblebee.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04466893-8b69-4d73-afe8-50c9658ce4d0" name="Changes" comment="" />
+      <created>1720956255822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720956255822</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
