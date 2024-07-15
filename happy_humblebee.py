@@ -4,18 +4,21 @@ import random
 
 pygame.init()
 
-# Set up the mixer (this is necessary to play sounds)
-pygame.mixer.init()
+# Try to initialize the mixer (for audio), and handle the exception if it fails
+try:
+    pygame.mixer.init()
+    # Load the music file
+    pygame.mixer.music.load('FlyGroove.mp3')
+    # Play the music
+    pygame.mixer.music.play(-1)  # -1 means the music will loop indefinitely
 
-# Load the music file
-pygame.mixer.music.load('FlyGroove.mp3')
-
-# Play the music
-pygame.mixer.music.play(-1)  # -1 means the music will loop indefinitely
-
-# Load sound effects
-fly_sound = pygame.mixer.Sound('fly.wav')
-game_over_sound = pygame.mixer.Sound('game_over.wav')
+    # Load sound effects
+    fly_sound = pygame.mixer.Sound('fly.wav')
+    game_over_sound = pygame.mixer.Sound('game_over.wav')
+    audio_enabled = True
+except pygame.error as e:
+    print(f"Audio initialization failed: {e}")
+    audio_enabled = False
 
 clock = pygame.time.Clock()
 fps = 60
@@ -95,7 +98,8 @@ class Humblebee(pygame.sprite.Sprite):
             if pygame.mouse.get_pressed()[0] == 1 and not self.clicked:
                 self.clicked = True
                 self.vel = -10
-                fly_sound.play()  # Play fly sound
+                if audio_enabled:
+                    fly_sound.play()  # Play fly sound
             if pygame.mouse.get_pressed()[0] == 0:
                 self.clicked = False
 
@@ -210,12 +214,12 @@ while run:
 
     # look for collision
     if pygame.sprite.groupcollide(bee_group, pipe_group, False, False) or humblebee.rect.top < 0:
-        if not is_game_over:
+        if not is_game_over and audio_enabled:
             game_over_sound.play()  # Play game over sound
         is_game_over = True
     # once the bee has hit the ground it's game over and no longer flying
     if humblebee.rect.bottom >= 768:
-        if not is_game_over:
+        if not is_game_over and audio_enabled:
             game_over_sound.play()  # Play game over sound
         is_game_over = True
         is_flying = False
