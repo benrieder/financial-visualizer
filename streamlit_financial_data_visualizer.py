@@ -34,8 +34,8 @@ class FinancialDataVisualizer:
         self.index_data = None
 
     def fetch_data(self):
-        self.data = yf.download(self.symbol, start=self.start_date, end=self.end_date, interval='3mo')
-        self.index_data = yf.download(self.index_symbol, start=self.start_date, end=self.end_date, interval='3mo')
+        self.data = yf.download(self.symbol, start=self.start_date, end=self.end_date, interval='1d')
+        self.index_data = yf.download(self.index_symbol, start=self.start_date, end=self.end_date, interval='1d')
 
     def plot_closing_price(self):
         st.line_chart(self.data['Close'], use_container_width=True)
